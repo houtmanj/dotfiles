@@ -1,0 +1,12 @@
+#ignore all non dot files
+!/.*
+#and also ignore these dot files
+/.bash*
+/.less*
+/.gem
+/.python-eggs
+/.ssh/id_dsa
+/.ssh/id_dsa.pub
+/.ssh/known_hosts
+/.subversion
+/.viminfo
