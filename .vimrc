@@ -29,15 +29,30 @@ set statusline+=%<%P                         " file position
 set statusline+=%#warningmsg#                " syntastic warning
 set statusline+=%{SyntasticStatuslineFlag()} " syntastic status flag
 set statusline+=%{fugitive#statusline()}     " fugutive git info
-set statusline+=[WORKON=%{pythonworkon}]     " virtual env
+"set statusline+=[WORKON=%{pythonworkon}]     " virtual env
 
-set statusline=
-" set statusline+=%2*%-3.3n%0*\                " buffer number
-set statusline+=%f\                          " file name
-set statusline+=%h%1*%m%r%w%0*               " flags
-set statusline+=%=                           " right align
-set statusline+=%-14.(%l,%c%V%)\ %<%P        " offset
-set statusline+=%-14.(%l,%c%V%)\ %<%P        " offset
+" Show line number and cursor position
+set ruler
 
-" Apply g:pythonworkon to statusline
-"
+" Display incomplete commands.
+set showcmd
+
+
+" Search stuff
+set showmatch " show matching brackets
+set matchtime=5 " how many tenths of a second to blink matching brackets for
+set nohlsearch " do not highlight searched for phrases
+set incsearch
+
+" Indenting
+set smartindent
+set noautoindent 
+"set cindent " Do c-style indenting
+
+" Show tabs instead of spaces and any trailing whitespace
+set list
+set listchars=tab:>-,trail:-
+
+" This beauty remembers where you were the last time you edited the file, and returns to the same position.
+au BufReadPost * if line("'\"") > 0|if line("'\"") <= line("$")|exe("norm '\"")|else|exe "norm $"|endif|endif
+
