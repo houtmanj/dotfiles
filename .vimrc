@@ -4,6 +4,12 @@ call pathogen#helptags()
 syntax on
 filetype plugin indent on
 
+" do syntax check on file open as well as on saving
+let g:syntastic_check_on_open=1
+" auto open the error window
+let g:syntastic_auto_loc_list=1
+
+
 set nocompatible
 set autoread
 set backspace=indent,eol,start
