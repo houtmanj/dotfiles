@@ -33,7 +33,8 @@ git_bundles = [
   "http://github.com/rodjek/vim-puppet.git",
   "http://github.com/vim-scripts/Specky.git",
   "https://github.com/vim-scripts/vim-python-virtualenv.git",
-  "https://github.com/tpope/vim-fugitive.git"
+  "https://github.com/tpope/vim-fugitive.git",
+  "https://github.com/chrisbra/Recover.vim.git"
 ]
 
 vim_org_scripts = [
