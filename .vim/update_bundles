@@ -4,7 +4,7 @@ git_bundles = [
   "http://github.com/astashov/vim-ruby-debugger.git",
   "http://github.com/ervandew/supertab.git",
   "http://github.com/godlygeek/tabular.git",
-  "http://github.com/hallison/vim-rdoc.git",
+  "http://github.com/depuracao/vim-rdoc.git",
   "http://github.com/msanders/snipmate.vim.git",
   "http://github.com/pangloss/vim-javascript.git",
   "http://github.com/scrooloose/nerdtree.git",
@@ -20,7 +20,6 @@ git_bundles = [
   "http://github.com/tpope/vim-repeat.git",
   "http://github.com/tpope/vim-surround.git",
   "http://github.com/tpope/vim-vividchalk.git",
-  "http://github.com/tsaleh/taskpaper.vim.git",
   "http://github.com/tsaleh/vim-matchit.git",
   "http://github.com/tsaleh/vim-shoulda.git",
   "http://github.com/tsaleh/vim-tmux.git",
@@ -32,9 +31,10 @@ git_bundles = [
   "http://github.com/scrooloose/syntastic.git",
   "http://github.com/rodjek/vim-puppet.git",
   "http://github.com/vim-scripts/Specky.git",
-  "https://github.com/vim-scripts/vim-python-virtualenv.git",
-  "https://github.com/tpope/vim-fugitive.git",
-  "https://github.com/chrisbra/Recover.vim.git"
+  "http://github.com/vim-scripts/vim-python-virtualenv.git",
+  "http://github.com/tpope/vim-fugitive.git",
+  "http://github.com/chrisbra/Recover.vim.git",
+  "http://github.com/altercation/vim-colors-solarized.git"
 ]
 
 vim_org_scripts = [
