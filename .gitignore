@@ -1,5 +1,6 @@
 #ignore all non dot files
 /*
+!bin
 !.*
 #and also ignore these dot files
 /.PyCharm20/
