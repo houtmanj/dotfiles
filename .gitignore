@@ -50,3 +50,17 @@
 /.swt/
 /.vagrant.d/
 /.VirtualBox/
+/.Private
+/.compiz/
+/.ecryptfs
+/.install4j
+/.jprofiler7/
+/.lftp/
+/.mission-control/
+/.pip/
+/.profile
+/.puppet/
+/.rpmdb/
+/.samurai.properties
+/.wireshark/
+/bin/rdp

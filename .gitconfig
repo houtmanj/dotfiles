@@ -29,3 +29,6 @@
         untracked = cyan
 [branch]
         autosetupmerge = true
+	autosetuprebase = always
+[init]
+	templatedir = /home/jhoutman/.gittemplate

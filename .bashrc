@@ -115,4 +115,5 @@ fi
 
 export PATH="~/bin:/opt/vagrant/bin/:${PATH}"
 export EDITOR="vim"
+export VAGRANT_CWD="/home/jhoutman/scratchpad/puppet_vagrant/"
 

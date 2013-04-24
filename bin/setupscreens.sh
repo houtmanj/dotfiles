@@ -4,6 +4,6 @@ if [[ ${PIPESTATUS[2]} -eq 0 ]]
 then
 	xrandr --output VGA1 --off
 else
-	xrandr --output VGA1 --auto --right-of LVDS1 --rotate left
+	xrandr --output VGA1 --auto --right-of LVDS1
 	xrandr --output LVDS1 --primary
 fi
