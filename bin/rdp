@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-
-rdesktop -u jhoutman -g 1024x768 10.10.140.31
